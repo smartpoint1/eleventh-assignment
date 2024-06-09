@@ -6,7 +6,7 @@ body{
     align-items: center;
     margin: 0;
 }
-.caculator{
+.calculator{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: repeat( auto 5, 1fr);
@@ -23,7 +23,7 @@ body{
     /* border-radius: 5px; */
     font-size: 24px;
 }
-.caculator button{
+.calculator button{
     display: flex;
     align-items: center;
     justify-content: center;
