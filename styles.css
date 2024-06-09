@@ -1,0 +1,49 @@
+body{
+    background-color: rgb(25, 25, 32);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+.caculator{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat( auto 5, 1fr);
+    gap: 2px;
+    width: 300px;
+    height: 80vh;
+}
+.first{
+    background-color: white;
+    color: black;
+    padding: 20px;
+    grid-column: span 4;
+    text-align: left;
+    /* border-radius: 5px; */
+    font-size: 24px;
+}
+.caculator button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* border-radius: 5px; */
+    border: none;
+    font-size: 24px;
+    cursor: pointer;
+    color: white;
+}
+.letter{
+    grid-column: span 2;
+    background-color: red;
+}
+.add{
+    grid-row: span 2;
+    background-color: #333;
+}
+.equal{
+    background-color: rgb(247, 168, 22);
+}
+.number, .sub, .mutiply, .divide{
+    background-color: #333;
+}
